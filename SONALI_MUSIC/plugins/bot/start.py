@@ -36,7 +36,7 @@ NEXIO = [
           "https://files.catbox.moe/smteo6.jpg",
           "https://files.catbox.moe/7enu2i.jpg",
           "https://files.catbox.moe/n6hkvd.jpg",
-          "https://files.catbox.moe/ej1p7t.jpg"]
+          "https://files.catbox.moe/ej1p7t.jpg",
 ]
  
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
