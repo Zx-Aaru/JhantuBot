@@ -151,6 +151,7 @@ async def skip(cli, message: Message, _, chat_id):
         img = await get_thumb(videoid)
         run = await message.reply_photo(
             photo=img,
+            has_spoiler=True,
             caption=_["stream_1"].format(
                 f"https://t.me/{app.username}?start=info_{videoid}",
                 title[:23],
@@ -170,6 +171,7 @@ async def skip(cli, message: Message, _, chat_id):
         button = stream_markup(_, chat_id)
         run = await message.reply_photo(
             photo=config.STREAM_IMG_URL,
+            has_spoiler=True,
             caption=_["stream_2"].format(user),
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -195,6 +197,7 @@ async def skip(cli, message: Message, _, chat_id):
                 photo=config.TELEGRAM_AUDIO_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
+                has_spoiler=True,
                 caption=_["stream_1"].format(
                     config.SUPPORT_CHAT, title[:23], check[0]["dur"], user
                 ),
@@ -208,6 +211,7 @@ async def skip(cli, message: Message, _, chat_id):
                 photo=config.SOUNCLOUD_IMG_URL
                 if str(streamtype) == "audio"
                 else config.TELEGRAM_VIDEO_URL,
+                has_spoiler=True,
                 caption=_["stream_1"].format(
                     config.SUPPORT_CHAT, title[:23], check[0]["dur"], user
                 ),
@@ -220,6 +224,7 @@ async def skip(cli, message: Message, _, chat_id):
             img = await get_thumb(videoid)
             run = await message.reply_photo(
                 photo=img,
+                has_spoiler=True,
                 caption=_["stream_1"].format(
                     f"https://t.me/{app.username}?start=info_{videoid}",
                     title[:23],
