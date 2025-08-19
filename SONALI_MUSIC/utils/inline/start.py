@@ -30,6 +30,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="MAIN_CP"),
+            InlineKeyboardButton("𝐁σт 𝐈иғσ", callback_data="bot_info_data"),
         ],
     ]
     return buttons
