@@ -16,7 +16,7 @@ from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
 from pytgcalls.types.stream import StreamAudioEnded
 
-import config
+from SONALI import LOGGER, YouTube, app
 from SONALI import LOGGER, YouTube, app
 from SONALI.misc import db
 from SONALI.utils.database import (
