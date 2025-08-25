@@ -102,10 +102,10 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
         baby = await message.reply_text(f"**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ..🥀__**")
+        await baby.edit_text(f"**__ɪ ʟᴏᴠᴇ ʏᴏᴜ ƙʀιᡶɪ....🥀__**")
         await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ...🥀__**")
         await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ....🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ �ᴏηɢ.....🥀__**")
+        await baby.edit_text(f"**__ɪ ʟᴏᴠᴇ ʏᴏᴜ ƙʀιᡶɪ....🥀__**")
         await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ.❤️‍🔥__**")
         await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ..❤️‍🔥__**")
         await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ...❤️‍🔥__**")
