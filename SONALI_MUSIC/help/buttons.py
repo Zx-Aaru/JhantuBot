@@ -127,7 +127,7 @@ class BUTTONS(object):
         ],
         [
             InlineKeyboardButton("⌯ ᴧʟʟ ʙσᴛ's ⌯", callback_data="MAIN_BACK HELP_ABOUT"),
-            InlineKeyboardButton("ᴘʀσϻσᴛɪση", callback_data="PROMOTION_CP"),
+            InlineKeyboardButton("⌯ ᴘʀσϻσᴛɪση ⌯", callback_data="PROMOTION_CP"),
         ],
         [
             InlineKeyboardButton("⌯ ʙᴧᴄᴋ ᴛσ ʜσϻє ⌯", callback_data="settingsback_helper"),
