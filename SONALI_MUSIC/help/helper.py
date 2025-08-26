@@ -437,9 +437,9 @@ class Helper(object):
 ● ᴇηᴊᴏʏ ғєєʟ ғʀєє ϻᴜsɪᴄ ᴡɪᴛʜ 𝐊ʀɪᴛɪ.
 ● ᴧᴅᴅ ϻє ηᴏᴡ ʙᴧʙʏ ɪɴ ʏᴏᴜʀ ɢʀσᴜᴘs.
 ─────────────────────────
-❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴋɪʀᴛɪ ꭙ ʙᴏᴛѕ˼ 💞](https://t.me/lll_BADNAM_BABY_lll)
-❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴋɪʀᴛɪ ꭙ ʙᴏᴛѕ˼ 💞](https://t.me/+Ius6mdxOqpFjNWM9)
-❖ ʙᴏᴛ σᴡηєʀ ➥ [˹ᴋɪʀᴛɪ ꭙ ʙᴏᴛѕ˼ 💞](https://t.me/lll_BADNAM_BABY_lll)
+❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴋɪʀᴛɪ ᴜᴘᴅᴀᴛᴇ ˼ 💞](https://t.me/lll_BADNAM_BABY_lll)
+❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴋɪʀᴛɪ sᴜᴘᴘᴏʀᴛ˼ 💞](https://t.me/+Ius6mdxOqpFjNWM9)
+❖ ʙᴏᴛ σᴡηєʀ ➥ [ʙᴀᴅɴᴀᴍ_ᴏᴘ 💕](https://t.me/lll_BADNAM_BABY_lll)
 ❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](https://t.me/lll_BADNAM_BABY_lll)
 ─────────────────────────
 ❖ ᴄʟɪᴄᴋ ση ᴛʜє ʜєʟᴩ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ
