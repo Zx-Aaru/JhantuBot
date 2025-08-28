@@ -12,7 +12,7 @@ async def goodnight_command_handler(_, message):
     if send_sticker:
         sticker_id = get_random_sticker()  # Ensure this function is defined elsewhere
         await app.send_sticker(message.chat.id, sticker_id)
-        await message.reply_text(f"**❖ ɢᴏᴏᴅ ɴɪɢʜᴛ ❖ sᴡᴇᴇᴛ ᴅʀᴇᴀᴍs ❖**\n\n**❍  {sender} 😴 **\n\n**❖ ɢᴏ ᴛᴏ ➥ sʟᴇᴇᴘ ᴇᴀʀʟʏ**")
+        await message.reply_text(f"**➠ ɢᴏᴏᴅ ɴɪɢʜᴛ ➠ sᴡᴇᴇᴛ ᴅʀᴇᴀᴍs ❖**\n\n**❍  {sender} 😴 **\n\n**❖ ɢᴏ ᴛᴏ ➥ sʟᴇᴇᴘ ᴇᴀʀʟʏ**")
     else:
         emoji = get_random_emoji()  # Ensure this function is defined elsewhere
         await app.send_message(message.chat.id, emoji)
