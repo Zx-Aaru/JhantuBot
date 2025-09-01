@@ -27,7 +27,7 @@ py-tgcalls==0.9.7
 pykeyboard
 pyshorteners
 #pyrogram==2.0.106
-kukigram
+kurigram==2.2.6
 python-dotenv
 pyyaml==6.0.1
 requests
