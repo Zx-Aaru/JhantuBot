@@ -439,7 +439,7 @@ class Helper(object):
 ─────────────────────────
 ❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [˹ᴋɪʀᴛɪ ᴜᴘᴅᴀᴛᴇ ˼ 💞](https://t.me/lll_BADNAM_BABY_lll)
 ❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [˹ᴋɪʀᴛɪ sᴜᴘᴘᴏʀᴛ˼ 💞](https://t.me/+Ius6mdxOqpFjNWM9)
-❖ ʙᴏᴛ σᴡηєʀ ➥ [ʙᴀᴅɴᴀᴍ_ᴏᴘ 💕](https://t.me/lll_BADNAM_BABY_lll)
+❖ ʙᴏᴛ σᴡηєʀ ➥ [ʙᴀᴅɴᴀᴍ_ᴏᴘ 💕](https://t.me/ll_YOU_NOW_BADNAM_ll)
 ❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](https://t.me/lll_BADNAM_BABY_lll)
 ─────────────────────────
 ❖ ᴄʟɪᴄᴋ ση ᴛʜє ʜєʟᴩ ʙυᴛᴛση ᴛσ ɢєᴛ ɪηғσ
