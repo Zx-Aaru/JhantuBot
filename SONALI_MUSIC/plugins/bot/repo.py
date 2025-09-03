@@ -9,9 +9,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 start_txt = """**
 <u>❃ ᴡєʟᴄσϻє ᴛᴏ ᴛєᴧϻ ᴋʀɪʀɪ ʀєᴘσs ❃</u>
  
-✼ ʀєᴘᴏ ᴛᴏ ηʜɪ ϻɪʟєɢᴧ ʏʜᴧ
+✼ ʀєᴘᴏ ɪs ηᴏᴡ ᴘʀɪᴠᴧᴛє ᴅᴜᴅє 😌
  
-❉ ᴘᴧʜʟє ᴘᴧᴘᴧ ʙσʟ ʀєᴘᴏ ᴏᴡηєʀ ᴋᴏ 
+❉  ʏᴏᴜ ᴄᴧη мʏ ᴜsє ᴘᴜʙʟɪᴄ ʀєᴘσs !!  
 
 ✼ || [˹ᴋɪʀᴛɪ ꭙ ʙᴏᴛѕ˼ 💞](https://t.me/lll_BADNAM_BABY_lll) ||
  
