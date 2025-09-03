@@ -74,7 +74,7 @@ async def get_thumb(videoid: str):
         font_path = "SONALI_MUSIC/assets/font3.ttf"
 
         # Overlay and bounding box detection
-        player = Image.open("SaregamaMusic/assets/nand.png").convert("RGBA").resize((1280, 720))
+        player = Image.open("SONALI_MUSIC/assets/nand.png").convert("RGBA").resize((1280, 720))
         overlay_box = get_overlay_content_box(player)  # (x1, y1, x2, y2)
         content_x1, content_y1, content_x2, content_y2 = overlay_box
         background.paste(player, (0, 0), player)
