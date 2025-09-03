@@ -42,7 +42,7 @@ def get_overlay_content_box(overlay_img: Image.Image) -> tuple:
     binary = alpha.point(lambda p: 255 if p > threshold else 0)
     return binary.getbbox()
 
-async def gen_thumb(videoid: str):
+async def get_thumb(videoid: str):
     url = f"https://www.youtube.com/watch?v={videoid}"
     try:
         results = VideosSearch(url, limit=1)
