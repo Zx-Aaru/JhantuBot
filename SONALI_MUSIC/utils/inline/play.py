@@ -60,14 +60,13 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-		[
+                [
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-         
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •" url="https://t.me/lll_BADNAM_BABY_lll"
-        
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/lll_BADNAM_BABY_lll"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/+Ius6mdxOqpFjNWM9"),
+        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -76,10 +75,9 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-         
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •" url="https://t.me/lll_BADNAM_BABY_lll"
-        
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/lll_BADNAM_BABY_lll"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/+Ius6mdxOqpFjNWM9"),
+        ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -105,7 +103,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
     ]
     return buttons
-                
+
 
 
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
