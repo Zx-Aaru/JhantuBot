@@ -71,7 +71,7 @@ async def gen_thumb(videoid: str):
         background = Image.alpha_composite(gradient, blurred)
 
         draw = ImageDraw.Draw(background)
-        font_path = "SaregamaMusic/assets/font3.ttf"
+        font_path = "SONALI_MUSIC/assets/font3.ttf"
 
         # Overlay and bounding box detection
         player = Image.open("SaregamaMusic/assets/nand.png").convert("RGBA").resize((1280, 720))
