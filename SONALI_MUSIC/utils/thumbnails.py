@@ -119,7 +119,7 @@ async def get_thumb(videoid: str):
 
         # Watermark
         watermark_font = ImageFont.truetype("SONALI_MUSIC/assets/font2.ttf", 24)
-        watermark_text = "@TEAM KRITI BOTS"
+        watermark_text = "TEAM KRITI BOTS"
         text_size = draw.textsize(watermark_text, font=watermark_font)
         x = background.width - text_size[0] - 25
         y = background.height - text_size[1] - 25
