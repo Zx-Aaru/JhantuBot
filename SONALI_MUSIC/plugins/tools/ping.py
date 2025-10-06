@@ -35,7 +35,7 @@ async def make_carbon(code):
 @app.on_message(filters.command("ping", prefixes=["/"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://files.catbox.moe/8dyj3u.jpg"
+    PING_IMG_URL = "https://files.catbox.moe/i8fxx6.jpg"
     captionss = "**ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
@@ -71,15 +71,15 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="↺ sᴜᴘᴘᴏʀᴛ ↺", url=f"https://t.me/kriti_bot_update",
+                text="⌯ sᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/KRITI_SUPPORT_GROUP",
             ),
             InlineKeyboardButton(
-                text="↺ ᴜᴘᴅᴀᴛᴇ ↺", url=f"https://t.me/kriti_bot_update",
+                text="⌯ ᴜᴘᴅᴀᴛᴇ ⌯", url=f"https://t.me/kriti_bot_update",
             )
         ],
         [
             InlineKeyboardButton(
-                text="↺ ᴍᴀɪɴ ʙᴏᴛ ↺", url=f"https://t.me/{app.username}?start=help"
+                text="⌯ ᴍᴀɪɴ ʙᴏᴛ ⌯", url=f"https://t.me/{app.username}?start=help"
             )
         ],
     ]
@@ -87,7 +87,7 @@ async def ping_com(client, message: Message, _):
         )
     await response.delete()
 
-    close_button = InlineKeyboardButton("↺ ᴄʟᴏsᴇ ↺", callback_data="close_data")
+    close_button = InlineKeyboardButton("⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
     inline_keyboard = InlineKeyboardMarkup([[close_button]])
 
 @app.on_callback_query(filters.regex("^close_data"))
