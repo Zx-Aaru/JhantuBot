@@ -26,7 +26,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots0bbc08') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
-
+BABYAPI = f"http://152.42.189.60:1470/song?query={vidid}"
 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-YukkiMusic-08-30")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kriti_bot_update")
