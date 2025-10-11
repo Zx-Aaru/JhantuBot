@@ -16,7 +16,7 @@ import random
 import logging
 import aiohttp
 import config
-from config import API_URL, API_KEY, VIDEO_API_URL, BABYAPI
+from config import API_URL, API_KEY, VIDEO_API_URL
 from urllib.parse import urlparse
 
 
@@ -47,7 +47,7 @@ async def download_song(link: str):
     loop = asyncio.get_running_loop()
 
     def get_url():
-        api_url = BABYAPI
+        api_url = f"http://152.42.189.60:1470/song?query={vidid}"
         try:
             return requests.get(api_url).json().get("link")
         except:
