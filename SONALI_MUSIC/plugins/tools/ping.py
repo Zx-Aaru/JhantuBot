@@ -39,19 +39,19 @@ async def ping_com(client, message: Message, _):
     captionss = "**ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
-    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sєʀᴠєʀ ᴡᴧɪᴛ.**")
+    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴧɪᴛ.**")
     await asyncio.sleep(1)
-    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sєʀᴠєʀ ᴡᴧɪᴛ..**")
+    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴧɪᴛ..**")
     await asyncio.sleep(1)
-    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sєʀᴠєʀ ᴡᴧɪᴛ...**")
+    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴧɪᴛ...**")
     await asyncio.sleep(1.5)
-    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sєʀᴠєʀ ᴡᴧɪᴛ....**")
+    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴧɪᴛ....**")
     await asyncio.sleep(2)
-    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sєʀᴠєʀ ᴡᴧɪᴛ.....**")
+    await response.edit_caption("**ᴘɪηɢɪηɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴧɪᴛ.....**")
     await asyncio.sleep(2)
-    await response.edit_caption("**sʏsᴛєϻ ᴅᴧᴛᴧ ᴧηᴧʟʏsєᴅ sᴜᴄᴄєssғᴜʟʟʏ !**")
+    await response.edit_caption("**sʏsᴛᴇᴍ ᴅᴧᴛᴧ ᴧηᴧʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ !**")
     await asyncio.sleep(3)
-    await response.edit_caption("**sєηᴅɪηɢ sʏsᴛєϻ ᴧηᴧʟʏsєᴅ ᴅᴧᴛᴧ ᴘʟєᴧsє ᴡᴧɪᴛ...**")
+    await response.edit_caption("**sᴇηᴅɪηɢ sʏsᴛᴇᴍ ᴧηᴧʟʏsᴇᴅ ᴅᴧᴛᴧ ᴘʟᴇᴧsᴇ ᴡᴧɪᴛ...**")
     start = datetime.now()
     pytgping = await Sona.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
@@ -71,15 +71,15 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="⌯ sᴜᴘᴘᴏʀᴛ ⌯", url=f"https://t.me/KRITI_SUPPORT_GROUP",
+                text="sᴜᴘᴘᴏʀʏ", url=f"https://t.me/AarumiChat",
             ),
             InlineKeyboardButton(
-                text="⌯ ᴜᴘᴅᴀᴛᴇ ⌯", url=f"https://t.me/kriti_bot_update",
+                text="ᴜᴘᴅᴧᴛᴇ", url=f"https://t.me/AarumiBots",
             )
         ],
         [
             InlineKeyboardButton(
-                text="⌯ ᴍᴀɪɴ ʙᴏᴛ ⌯", url=f"https://t.me/{app.username}?start=help"
+                text="ᴍᴧɪɴ ʙᴏᴛ", url=f"https://t.me/{app.username}?start=help"
             )
         ],
     ]
@@ -87,7 +87,7 @@ async def ping_com(client, message: Message, _):
         )
     await response.delete()
 
-    close_button = InlineKeyboardButton("⌯ ᴄʟᴏsᴇ ⌯", callback_data="close_data")
+    close_button = InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
     inline_keyboard = InlineKeyboardMarkup([[close_button]])
 
 @app.on_callback_query(filters.regex("^close_data"))
