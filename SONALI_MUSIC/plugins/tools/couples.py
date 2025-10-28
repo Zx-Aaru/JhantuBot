@@ -14,8 +14,8 @@ from SONALI_MUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •",
-            url=f"https://t.me/Hena_robot?startgroup=true",
+            text="ᴧᴅᴅ ᴍᴇ ʙᴧʙʏ",
+            url=f"https://t.me/AarumiSongBot?startgroup=true",
         ),
     ],
 ]
@@ -106,13 +106,13 @@ async def ctest(_, message):
          img.save(f'test_{cid}.png')
     
          TXT = f"""
-**ㅤ◦•●◉✿ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ  ✿◉●•◦
+**ㅤ◦•●◉✿ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴧʏ  ✿◉●•◦
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 
  {N1} + {N2} = ♥︎
 
 ❖ ɴᴇxᴛ ᴄᴏᴜᴘʟᴇ sᴇʟᴇᴄᴛᴇᴅ ᴏɴ 
-❖ ᴅᴀᴛᴇ -`{tomorrow}`
+❖ ᴅᴧᴛᴇ -`{tomorrow}`
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭**
 """
     
