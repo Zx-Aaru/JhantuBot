@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 NEXIO = [
         [
-            InlineKeyboardButton(text="• ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ •", url=f"https://t.me/ExosMusicBot?startgroup=true"),
+            InlineKeyboardButton(text="ᴧᴅᴅ ᴍᴇ ʙᴧʙʏ", url=f"https://t.me/AarumiSongBot?startgroup=true"),
         ],
         ]
 
